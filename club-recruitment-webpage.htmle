@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title> CODING NATIONS-EVENT </title>
+        
+        <style>
+            body {
+                margin: 0;
+                font-family: 'Arial', sans-serif;
+                 
+                background-image: url('https://img-cdn.thepublive.com/filters:format(webp)/industry-wired/media/post_attachments/wp-content/uploads/2022/04/Top-10-Animes-that-Encourage-to-Coding-Skills.jpg');
+               background-size: cover;
+               background-position: center;
+              background-repeat: repeat;
+
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                padding: 20px;
+                backdrop-filter: blur(2px);
+            }
+            .poster
+            { 
+                width: 100% ;
+                max-width: 800px;
+                background: rgba(0,10, 30, 0.8);
+                border-radius: 20px;
+                overflow:hidden;
+                box-shadow: 0 10px 30px rgba(0 , 0, 0, 0.5);
+                text-align: center;
+                padding: 40px 30px;
+                backdrop-filter: blur(10px);
+                border: 2px solid #51286c;
+                opacity: 0;
+               transform: translateY(20px);
+               animation: fadeInUp 1s forwards;
+            }
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 3.5em;
+                margin:0;
+                color: aqua;
+                text-shadow: 0 0 10px rgba(12, 118, 65, 0.7);
+            }
+            h2{
+                font-size: 1.8em;
+                margin:10px 0;
+                color: aqua;
+            }
+            p{
+                font-size: 1.2em;
+                margin: 15px 0;
+                line-height: 2.0;
+            }
+            .highlight {
+                background:#51286c ;
+                font-style:italic;
+                color: aqua;
+                padding: 10px 20px ;
+                border-radius: 10px;
+                display: inline-block;
+                margin: 10px;
+                font-weight: bold;
+
+
+            }
+            .register{
+                margin: 20px 0;
+                font-size: 1.3em;
+                color: aqua;
+                font-weight: bold;
+            }
+            h3{
+                font-size: 40px;
+                font-family: cursive;
+                color: #2e8e5e;
+
+                
+            }
+            .rsvp-btn{
+                margin: 30px 0;
+                padding: 15px 30px;
+                font-size: 1.3em;
+                background: #0077ff;
+                color: white;
+                border: none;
+                border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(0, 119, 255, 0.4);
+        }
+        .rsvp-btn:hover {
+            background: #005edc;
+            transform: scale(1.05);
+        }
+            
+
+            .footer{
+                margin-top: 20px;
+                font-size: 0.9em;
+                color: #9621e4;;
+
+            }
+            @media( max-width:600px ) {
+                h1{font-size: 2.53em;}
+                h2{font-size: 1.4em;}
+                p{font-size: 1em;}
+
+                
+            }
+             @keyframes fadeInUp{
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+             }
+
+        </style>
+    </head>
+    <body>
+        
+<div class="poster">
+  <h1>CODING NATIONS</h1>
+  <h2>CODE WITH FUN,LEARN AND GROW</h2>
+  <hr class="top-line">
+  <p CLASS="highlight">📅 DATE :26 OCTOBER 2025</p>
+  <p CLASS="highlight">⏰TIME:9:00 AM - 9:00 PM</p>
+  <p CLASS="highlight">📍VENUE: MINI HALL 1,TECH PARK</p>
+  <p> OPEN TO ALL FIRST YEAR STUDENTS OF SRM </p>
+  <p> WE ARE VERY GLAD TO INFORM THAT YOU'LL LEARN:</p>
+  <p> HOW TO START HTML?** HOW TO STYLE YOUR WEB PAGE?**AND BASIC INFORMATION ABOUT APP DEVELOPMENT</P>
+   <div CLASS="register">
+      IF YOU ARE INTRESTED DO FILL OUR FORM → bit.ly/futureminds-srm
+   </div>
+   <button class="rsvp-btn" onclick="rsvp()">REGISTER</button>
+
+
+        <p> OH YES! IF YOU ARE WORRIED ABOUT NOT KNOWING CODING DON'T WORRY,<br><b>NO PRIOR EXPERIENCE IS NEEDED!</b> 
+        <br>JUST BRING YOUR LAPTOP ONLY AND WATCH YOURSELF GROW </p>
+        <hr class="bottom-line">
+        <h3> THE FUTURE IS HERE</h3>
+        <div CLASS="footer">
+            Got any queries?Contact us anytime at<br>
+            mail:ss2230@srmist.edu.in<br>
+            insta:@xyzcode_nations<br>
+            ORGANISERS: DSA SRMIST
+            </div>
+    
+</div>
+<script>
+        function rsvp() {
+            alert("🎉 We are very glad you registered. See you soon!");
+        }
+    </script>
+  </body>
+    
+</html>
